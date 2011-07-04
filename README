@@ -1,0 +1,25 @@
+Caravel - Search proxy addres tool. This software is beta.
+
+- Functions:
+
+	* Search Proxy address
+	* Search Proxy address for country
+	* Download page to proxies.
+
+- Help: ./caravel --help
+- This software need of Python Interpreter and BeautifulSoup library:
+
+	* Debian: # apt-get install  python python-beautifulsoup
+		It's necessary this repository: 
+			(Lenny) deb http://ftp.de.debian.org/debian lenny main 
+			(Squeeze) deb http://ftp.de.debian.org/debian squeeze main
+
+	* Ubuntu: # apt-get install python python-beautifulsoup
+		It's necessary repository:
+			(Dapper) deb http://ubuntu.mirror.cambrium.nl/ubuntu/ dapper main universe
+			(Hardy)	deb http://ubuntu.mirror.cambrium.nl/ubuntu/ hardy main universe
+			(Lucid) deb http://ubuntu.mirror.cambrium.nl/ubuntu/ lucid main
+			(Maverick) deb http://ubuntu.mirror.cambrium.nl/ubuntu/ maverick main
+			(Natty) deb http://ubuntu.mirror.cambrium.nl/ubuntu/ natty main
+
+	Open /etc/apt/sources.list and make sure the online repository is necessary to present in the file.
