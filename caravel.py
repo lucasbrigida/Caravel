@@ -216,8 +216,8 @@ def visit_site_proxy(url):
 				print "\33[33;1m \n * Size page load w/ proxy: %s \33[m" %len(page),"\33[33;1m \n * Size page load w/ direct connection  %s \33[m" %len(orig_site),"\n","\33[32;1m \n * VISIT URL OK!\n \33[m"
 				
 				# Create Page
-				os.system("mkdir -p pages")
-				page_file=open('pages/' + url[7:] + str(id) + '.html','w')
+				os.system("mkdir -p caravel")
+				page_file=open('caravel/' + url[7:] + str(id) + '.html','w')
 				for line in page: 
 					page_file.write(line)
 				page_file.close()
